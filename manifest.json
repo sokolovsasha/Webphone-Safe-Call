@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Webphone Safe Call",
+  "version": "5.0",
+  "description": "При звонке выключает звук на 4.5 секунды, затем включает. Кнопка в модальном окне Webphone.",
+  "permissions": ["tabs", "scripting"],
+  "host_permissions": ["https://yclients.nau.team:8443/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "128": "icon.png"
+  }
+}
